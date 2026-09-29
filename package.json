@@ -1,0 +1,17 @@
+{
+  "name": "notes-api",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Small notes API with file attachments and reports.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "export": "python3 scripts/export_notes.py"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "better-sqlite3": "^11.1.2",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
